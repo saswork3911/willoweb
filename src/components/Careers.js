@@ -45,7 +45,7 @@ export default function Careers() {
           </h2>
           
           <p className="text-sm sm:text-base md:text-lg leading-6 md:leading-8 text-[#666] mb-6 sm:mb-8 md:mb-10">
-            Be part of a team that's shaping the future of agriculture. We offer a culture of innovation, continuous learning, and meaningful impact. Join us in making a difference for farmers and our planet.
+            Be part of a team that&apos;s shaping the future of agriculture. We offer a culture of innovation, continuous learning, and meaningful impact. Join us in making a difference for farmers and our planet.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 mb-6 sm:mb-8 md:mb-12">

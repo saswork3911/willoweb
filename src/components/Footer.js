@@ -6,7 +6,7 @@ export default function Footer() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    alert("Thank you for subscribing! We'll keep you updated.")
+    alert(`Thank you for subscribing! We&apos;ll keep you updated.`)
     setEmail('')
   }
 
@@ -32,7 +32,7 @@ export default function Footer() {
               Willowood
             </div>
             <p className="text-xs sm:text-sm md:text-base leading-5 md:leading-[26px] text-white/80 mb-4 sm:mb-6 md:mb-8">
-              Pioneering sustainable solutions for tomorrow's agriculture. Join us in transforming the future of farming.
+              Pioneering sustainable solutions for tomorrow&apos;s agriculture. Join us in transforming the future of farming.
             </p>
             <div className="flex gap-2 sm:gap-3 md:gap-4">
               {socialIcons.map((social, index) => (

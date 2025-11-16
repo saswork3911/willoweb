@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Innovation() {
   const metrics = [
     { value: '₹500Cr+', label: 'Annual R&D Investment' },
@@ -8,10 +10,11 @@ export default function Innovation() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-0  min-h-[500px] md:min-h-[600px] lg:min-h-[800px] bg-[#F8F8F8]">
       <div className="relative overflow-hidden  h-[250px] sm:h-[300px] md:h-[400px] lg:h-auto order-1 lg:order-1">
-        <img 
+        <Image 
           src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800"
           alt="Innovation Lab"
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          fill
+          className="object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
       
@@ -25,7 +28,7 @@ export default function Innovation() {
         </h2>
         
         <p className="text-sm sm:text-base md:text-lg leading-6 md:leading-8 text-[#666] max-w-full lg:max-w-[560px] mb-8 md:mb-12">
-          Our commitment to innovation drives everything we do. With state-of-the-art research facilities and world-class scientists, we're pioneering solutions that address the most pressing challenges in global agriculture.
+          Our commitment to innovation drives everything we do. With state-of-the-art research facilities and world-class scientists, we&apos;re pioneering solutions that address the most pressing challenges in global agriculture.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-12 mb-8 md:mb-12">

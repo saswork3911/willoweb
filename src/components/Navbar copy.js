@@ -23,7 +23,7 @@ export default function Navbar() {
       >
         <div className="font-montserrat font-black text-lg sm:text-xl md:text-2xl lg:text-[28px] leading-none tracking-[-0.5px] text-[#1A4D2E]">
           {/* Willowood */}
-          <Image src={willowoodlogo} height={100} width={100} className={` ${scrolled ? "w-36 transition-all duration-300 ease-out":"w-44"}`}></Image>
+          <Image alt="navbar" src={willowoodlogo} height={100} width={100} className={` ${scrolled ? "w-36 transition-all duration-300 ease-out":"w-44"}`}></Image>
         </div>
 
         {/* Desktop Menu */}
