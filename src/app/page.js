@@ -1,11 +1,11 @@
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import BusinessSegments from '../components/BusinessSegments'
-import Innovation from '../components/Innovation'
-import GlobalPresence from '../components/GlobalPresence'
-import Insights from '../components/Insights'
-import Careers from '../components/Careers'
-import Footer from '../components/Footer'
+import Navbar from '../components/sections/Navbar'
+import Hero from '../components/sections/Hero'
+import BusinessSegments from '../components/sections/BusinessSegments'
+import Innovation from '../components/sections/Innovation'
+import GlobalPresence from '../components/sections/GlobalPresence'
+import Insights from '../components/sections/Insights'
+import Careers from '../components/sections/Careers'
+import Footer from '../components/sections/Footer'
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
       <Hero />
       <BusinessSegments />
       <Innovation />
-      <GlobalPresence />
       <Insights />
+      <GlobalPresence />
       <Careers />
       <Footer />
     </main>
